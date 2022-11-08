@@ -22,7 +22,7 @@
 * php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 * sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 * composer
-
+///////////
 * composer create-project laravel/laravel example-app
 * composer global require laravel/installer
 * laravel new example-app
